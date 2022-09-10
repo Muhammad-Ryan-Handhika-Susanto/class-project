@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "halo semoga berhasil";
+    return "halo semoga berhasil dan selesai projeknya sesuai rencana";
 });
