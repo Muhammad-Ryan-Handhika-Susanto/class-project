@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/teachers', function () {
+    return view('teachers');
+});
+
+Route::get('/memories', function () {
+    return view('memories');
+});
+
+Route::get('/achievements', function () {
+    return view('achievements');
+});
+
+Route::get('/informations', function () {
+    return view('informations');
+});

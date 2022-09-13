@@ -6,11 +6,11 @@
         <i class="fas fa-bars"></i>
     </label>
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Teachers</a></li>
-        <li><a href="#">Memories</a></li>
-        <li><a href="#">Achievements</a></li>
-        <li><a href="#">Informations</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/teachers">Teachers</a></li>
+        <li><a href="/memories">Memories</a></li>
+        <li><a href="/achievements">Achievements</a></li>
+        <li><a href="/informations">Informations</a></li>
     </ul>
 </nav>
 <div style="margin-bottom: 70px;">
