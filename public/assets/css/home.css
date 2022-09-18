@@ -2,5 +2,145 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #393E46;
+    background-image: url("../img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/* kata-kata start */
+.sambutan {
+    position: absolute;
+    top: 15%;
+    margin: 0 0 0 350px;
+}
+/* kata-kata end */
+
+/* image slider start */
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 200px;
+    left: 275px;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid cyan;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: cyan;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -60%;
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigation-auto div {
+    border: 2px solid cyan;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: cyan;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: cyan;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background: cyan;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background: cyan;
+}
+/* image slider end */
+
+/* card start */
+
+/* card end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
