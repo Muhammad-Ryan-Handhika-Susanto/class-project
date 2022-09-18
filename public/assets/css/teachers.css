@@ -3,100 +3,48 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: #393E46;
+    overflow: hidden;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 100px 0;
-}
-
-.col-1 {
-    flex-basis: 40%;
-    position: relative;
-    margin-left: 50px;
-}
-
-.col-1 h1 {
-    font-size: 54px;
-    color: #fff;
-}
-
-.col-1 p {
-    font-size: 16px;
-    color: #fff;
-    font-weight: 100;
-}
-
-.col-1 p {
-    margin: 30px 0;
-    font-size: 20px;
-}
-
-button {
-    width: 140px;
-    border: 0;
-    padding: 12px 10px;
-    outline: none;
-    color: #fff;
-    background: blue;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.col-1::after {
-    content: '';
-    width: 10px;
-    height: 57%;
-    background-color: blue;
+.name {
     position: absolute;
-    left: -40px;
-    top: 8px;
+    margin: 100px 0 0 210px; 
+    padding: 5px; 
+    color: #fff;
+    background: black;
+    border-radius: 10px;
 }
 
-.col-2 {
-    position: relative;
-    flex-basis: 60%;
-    display: flex;
-    align-items: center;
-}
-
-.col-2 .man {
-    width: 90%;
-}
-
-.shape {
+.img .shape {
     position: absolute;
-    right: 0;
-    top: 0;
-    background: blue;
-    border-radius: 20px 0 0 20px;
-    height: 100%;
-    width: 80%;
+    width: 500px;
+    height: 500px;
+    background: #9ADCFF;
     z-index: -1;
-    transform: translateX(150px);
+    margin: 100px 0 0 100px;
+    border-radius: 50%;
 }
 
-@media only screen and (max-width:700px) {
-    .row {
-        flex-direction: column-reverse;
-        margin: 50px 0;
-    }
-    .col-2 {
-        flex-basis: 100%;
-        margin-bottom: 50px;
-    }
-    .col-2 .man {
-        width: 77%;
-    }
-    .shape {
-        transform: translateX(75px);
-    }
-    .col-1 {
-        flex-basis: 100%;
-    }
-    .col-1 h1 {
-        font-size: 35px;
-    }
+.img .aoel {
+    margin: 0 0 0 190px;
+    height: 100%;
+}
+
+.ket {
+    position: absolute;
+    top: 70%;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 10px 0 50%;
+}
+
+.ket button {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.ket button:hover {
+    border: 5px solid #9ADCFF;
 }
