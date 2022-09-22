@@ -1,16 +1,16 @@
-@extends('layouts.navbar')
+@extends('layouts.nav-teachers')
 
 @section('content')
-<div class="row">
-    <div class="col-1">
-        <h1>Aulia Rachman</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi reprehenderit, minus eligendi dicta unde aliquam delectus veniam quidem odit pariatur, excepturi esse voluptates modi sint dolores mollitia voluptatibus sed placeat! Doloribus atque temporibus, ab dolore mollitia autem in adipisci dicta necessitatibus amet unde ipsum dolores quo tempore. Asperiores, sit repellendus.</p>
-        <button>Next</button>
-    </div>
-    <div class="col-2">
-        <img src="{{ 'assets/img/pak-aulia.png' }}" alt="Pak Aulia Rachman" class="man">
-        <div class="shape"></div>
-    </div>
+<div class="img">
+    <div class="shape"></div>
+    <h1 class="name">Pak Aulia Rachman</h1>
+    <img src="{{ 'assets/img/pak-aulia.png' }}" alt="pak aulia" class="aoel">
+</div>
+<div class="ket">
+    <h2>Pak Aulia Rachman</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consectetur ea delectus earum. Blanditiis accusantium et, repellendus quis tenetur, quasi molestiae quibusdam esse excepturi, porro animi at rem ad consequatur!</p>
+    <br>
+    <button>Lainnya</button>
 </div>
 @endsection
 
