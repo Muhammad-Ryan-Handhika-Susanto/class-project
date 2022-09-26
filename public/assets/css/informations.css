@@ -5,7 +5,11 @@ body {
     background: #393E46;
 }
 .satu{
-    background-color: #393E46;
+    background-color: #3879db;
+    color: white;
+}
+.dua{
+    background-color: #7bbaee;
     color: white;
 }
 .foto{
