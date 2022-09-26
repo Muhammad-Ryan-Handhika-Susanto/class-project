@@ -1,9 +1,12 @@
 @extends('layouts.navbar')
 @section('content')
 <div class="card text-bg-dark" >
-  <img src="{{ 'assets/img/najmi2 (1).jpg' }}" class="card-img" alt="...">
+  <img src="{{ 'assets/img/bg3.jpg' }}" class="card-img" alt="...">
   <div class="card-img-overlay overflow">
-    <h5 class="card-title">PENGERTIAN RPL(Rekayasa Perangkat Lunak)</h5>
+    <br>
+    <br>
+    <br>
+    <h1 class="card-title">PENGERTIAN RPL(Rekayasa Perangkat Lunak)</h1>
     <p class="card-text"> <strong>Rekayasa Perangkat Lunak atau biasa disingkat dengan RPL adalah salah satu bidang profesi dan juga mata pelajaran yang mempelajari tentang pengembangan perangkat-perangkat lunak termasuk dalam hal pembuatannya, pemeliharaan hingga manajemen organisasi dan manajemen kualitasnya.</strong>  Bisa dikatakan RPL ini merupakan sebuah perubahan yang terjadi pada perangkat lunak guna melakukan pengembangan, pemeliharaan, dan pembangunan kembali dengan menerapkan prinsip rekayasa sehingga memperoleh perangkat lunak yang bisa bekerja secara lebih efisien dan efektif pada user nantinya.
 <br>
 Perangkat lunak sendiri merupakan sekumpulan data yang tersimpan dan terprogram oleh sistem komputer, istilah ini cukup umum dengan sebutan software. Merupakan elemen dari komputer, software menjadi elemen yang tidak tampak secara fisik. Ia berisi instruksi-instruksi yang diprogram dan bisa berada di perangkat keras manapun, software pada mulanya adalah sebuah kode mesin atau machine code yang dibuat oleh seorang ilmuwan. Berisi angka-angka biner yang dapat dikenali oleh komputer, terkhusus prosesor. Software bekerja dengan membuat instruksi tertentu dalam melakukan perhitungan, logika, input-output, dan aritmatika pada prosesor.
@@ -38,6 +41,8 @@ Sedangkan menurut IEEE, adalah sebuah studi dan aplikasi dengan menggunakan pend
     <br>
 PPLG/RPL  adalah salah satu jurusan yang ada diSMK TI MUHAMMADIYAH
 <br>
+jurusan ini sekarang sudah angkatan
+<br>
 <img src="{{ 'assets/img/RPL9-removebg-preview.png' }}" alt="" class="foto">
 <br>
 <strong>LEB PPLG SMK TI MUHAMMADIYAH </strong>
@@ -49,31 +54,54 @@ PPLG/RPL  adalah salah satu jurusan yang ada diSMK TI MUHAMMADIYAH
 <br>
     </div>
     <div class="col dua">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore dolor repellendus neque at quaerat quas laudantium nostrum officiis, aliquam nisi ullam. Ut vel eos commodi cum voluptatem explicabo adipisci corrupti!</p>
-      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+       <strong>YANG MENGAJAR DI LEB PPLG </strong> 
+       <br>
+       1.Pak Aulia Racman
+       <br>
+       2.Pak Haris Maulan Ikhsan
+       <br>
+       <br>
+       <br>
+       <strong>TEKNISI LEB PPLG</strong>
+       <br>
+       Pak Akbar Nugraha Siregar
+       <link rel="stylesheet" href="<i class="fa-brands fa-instagram"></i>">
+       <br>
+       <br>
+       <br>
+       <strong>KEGIATAN YANG ADA DI LEB PPLG</strong> 
+       <br>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ 'assets/img/RPL2.jpg' }}" class="d-block w-100" alt="...">
+      <img src="{{ 'assets/img/RPL3.jpg' }}" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="{{ 'assets/img/RPL11.jpg' }}" class="d-block w-100" alt="...">
+    <img src="{{ 'assets/img/RPL6.jpg' }}" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="{{ 'assets/img/RPL2.jpg' }}" class="d-block w-100" alt="...">
+      <img src="{{ 'assets/img/RPL13.jpg' }}" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="{{ 'assets/img/RPL14.jpg' }}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ 'assets/img/RPL15.jpg' }}" class="d-block w-100" alt="...">
+    </div>
+     
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    </div>
   </div>
 @endsection
 
 <link rel="stylesheet" href="{{ 'assets/css/informations.css' }}">
 <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
